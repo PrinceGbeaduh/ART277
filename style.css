@@ -1,0 +1,84 @@
+
+ 
+ body{
+     width: 90%;
+     margin: auto;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 1.2em;
+     color: rgb(26, 25, 25);
+
+ }
+ .header{
+     background-color: rgb(4, 88, 29);
+     padding: 3px 10px;
+     margin-bottom: 0px;
+ }
+ .header div{
+     display: inline-block;
+ }
+ .header h1 {
+     color:#ffff;
+     font-weight:400;
+ }
+ .header span{
+     color:rgb(209, 196, 13)
+ }
+ .header ul{
+     list-style-type: none;
+     padding-left: 250px;
+
+ }
+ .header ul li{
+     display: inline-block;
+     margin-left: 50px;  
+ }
+ .header ul li a{
+     text-decoration: none;
+     color: #ffff;
+ }
+ .header ul li a:hover{
+     color: rgb(209, 196, 13);
+     border-bottom: 1px solid goldenrod;
+
+ }
+ .banner {
+     height: 300px;
+     background-image: url(Media/roy.jpeg);
+     background-size: cover;
+     margin: 0px;
+     padding: 10%;
+
+
+ }
+ .banner h2 {
+     color: rgb(209, 196, 13);
+     font-size: 2.7em;
+
+ }
+ .banner p{
+     color: #ffff;
+     font-size: 1.5em;
+ }
+ .banner button {
+     background-color: rgb(4, 88, 29);
+     width: 150px;
+     height: 50px;
+     border: 0px;
+     color: rgb(209, 196, 13);
+
+ }
+ a {
+     color: rgb(209, 196, 13);
+ }
+ .content iframe{
+     float: right;
+     margin: 10px;
+
+ }
+ .footer {
+     background-color: rgb(4, 88, 29);
+     color: #ffff;
+     text-align: center;
+     height: 50px;
+
+ }
